@@ -20,6 +20,6 @@ For Example:
 
 ## mergeVid.py
 
-Merges one or more files
+Merges one or more videos into one video.
 For Example:
 `mergeVid.py OUTPUT_FILE(out.mp4) INPUT_FILES (in_1.mp4 in_2.mp4 ...)`
