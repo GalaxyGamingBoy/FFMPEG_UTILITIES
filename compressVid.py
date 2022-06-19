@@ -20,6 +20,5 @@ try:
 
     print("FILE COMPRESS COMPLETED!")
     print(f"OLD SIZE: {oldSize}, NEW SIZE: {newSize}")
-    input("PRESS RETURN ( ENTER ) TO EXIT")
 except:
     print("Usage: compressVid.py INPUT_FILE(in.mp4) OUTPUT_FILE(out.mp4)")
