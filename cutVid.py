@@ -16,4 +16,4 @@ class FFMPEG_CutVideo:
 try:
     os.system(FFMPEG_CutVideo(commandArgs[1], commandArgs[2], commandArgs[3], commandArgs[4]).cut())
 except:
-    print("Usage: cutVid.py START_TIME(00:00:00) END_TIME(00:10:00) INPUT_FILE(cut.mp4) OUTPUT_FILE(cutOut.mp4)")
+    print("Usage: cutVid.py INPUT_FILE(cut.mp4) OUTPUT_FILE(cutOut.mp4)START_TIME(00:00:00) END_TIME(00:10:00)")
