@@ -23,3 +23,9 @@ For Example:
 Merges one or more videos into one video.
 For Example:
 `mergeVid.py OUTPUT_FILE(out.mp4) INPUT_FILES (in_1.mp4 in_2.mp4 ...)`
+
+## removeAudio.py
+
+Removes the audio from a video.
+For Example:
+`removeAudio.py INPUT_FILE(in.mp4) OUTPUT_FILE(out.mp4)`

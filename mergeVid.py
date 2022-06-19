@@ -17,14 +17,14 @@ class FFMPEG_MergeVideo:
 
         # Write the files to be merged to the temporary file
         for i in range(commandArgInputs):
-            tmpFile.write(commandArgs[i + 2] + "\n")
+            tmpFile.write("file '" + commandArgs[i + 2] + "'\n")
 
         # Close the temporary file
         tmpFile.close()
 
     def merge(self):
         self.createTMPWithFilesToBeMerged()
-        return f"ffmpeg -f concat -i tmp.ffmpeg_utils -c copy {self.outputFile}"
+        return f"ffmpeg -f concat -safe 0 -i tmp.ffmpeg_utils -c copy {self.outputFile}"
 
 try:
     os.system(FFMPEG_MergeVideo(commandArgs[1]).merge())
