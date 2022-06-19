@@ -17,3 +17,9 @@ For Example:
 Compress a raw video with default ffmpeg compression.
 For Example:
 `compressVid.py INPUT_FILE(in.mp4) OUTPUT_FILE(out.mp4)`
+
+## mergeVid.py
+
+Merges one or more files
+For Example:
+`mergeVid.py OUTPUT_FILE(out.mp4) INPUT_FILES (in_1.mp4 in_2.mp4 ...)`
